@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Vazirmatn", system-ui, Tahoma, sans-serif;
+  background-color: #f7f8f6;
+  color: #202820;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Persian numerals feel; keep digits readable */
+.numeric {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom focus ring for keyboard users */
+:focus-visible {
+  outline: 2px solid #24734b;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Hide scrollbar utility for slider nav */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
