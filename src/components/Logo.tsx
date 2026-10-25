@@ -5,7 +5,7 @@ export default function Logo({
 }: {
   variant?: "light" | "dark";
 }) {
-  const textColor = variant === "light" ? "text-white" : "text-ink";
+  const textColor = "text-ink";
   const subColor = variant === "light" ? "text-white/70" : "text-ink-muted";
   return (
     <div className="flex items-center gap-2.5">

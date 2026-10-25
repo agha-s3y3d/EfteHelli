@@ -45,7 +45,7 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a href="#home" onClick={(e) => handleAnchor(e, "#home")} aria-label="صفحه اصلی باشگاه همراهان">
+        <a href="#home" onClick={(e) => handleAnchor(e, "/")} aria-label="صفحه اصلی باشگاه همراهان">
           <Logo />
         </a>
 

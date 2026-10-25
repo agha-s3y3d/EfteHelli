@@ -36,10 +36,10 @@ export interface NavLink {
 }
 
 export const navLinks: NavLink[] = [
-  { label: "صفحه اصلی", href: "#home" },
-  { label: "رویدادها", href: "#events" },
-  { label: "قله افتخار", href: "#announcements" },
-  { label: "لیگ فوتبال", href: "#league" },
+  { label: "صفحه اصلی", href: "/" },
+  { label: "رویدادها", href: "/events" },
+  { label: "قله افتخار", href: "/announcements" },
+  { label: "لیگ فوتبال", href: "/league" },
 ];
 
 export const heroSlides: HeroSlide[] = [

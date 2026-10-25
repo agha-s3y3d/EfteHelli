@@ -7,6 +7,8 @@ import LeagueSection from "./components/LeagueSection";
 import AnnouncementsSection from "./components/AnnouncementsSection";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
+import LeaguePage from "./pages/LeaguePage";
+
 
 function Home() {
   return (
@@ -66,10 +68,7 @@ export default function App() {
           <Route
             path="/league"
             element={
-              <Placeholder
-                title="لیگ فوتبال مجموعه"
-                hint="صفحه اختصاصی لیگ فوتبال شامل تیم‌ها، برنامه مسابقات، نتایج و جدول رده‌بندی به‌زودی راه‌اندازی می‌شود."
-              />
+              <LeaguePage />
             }
           />
           <Route
